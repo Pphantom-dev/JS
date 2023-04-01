@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(222, 222, 222);
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.enter {
+    border-radius: 5px;
+}
+
+.login {
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    font-size: 30px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 190px; 
+    border: 7px solid black;
+}
+
+.enter:hover {
+    background-color: gray;
+    color: white;
+}
+
+.enter:focus {
+    background-color: rgb(105, 105, 105);
+}
+
+#send, #reset {
+    font-size: 0.5em;
+    outline: none;
+    border-radius: 0.3em;
+}
+
+  

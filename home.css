@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: rgb(0, 194, 0);
+}
+
+.header {
+    text-align: center;
+}
+
+.container {
+    color: rgb(255, 0, 0);
+}
+
+.centro {
+    text-align: center;
+}
+
+.container img {
+    width: 250px;
+    height: 250px;
+}
+
+.container ul {
+    margin-left: 50px;
+}
+
+#tamanho7 {
+    font-size: 20px;
+    color: rgb(0, 194, 0);
+}
